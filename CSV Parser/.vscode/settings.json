@@ -1,0 +1,28 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-3.15\\poi-excelant-3.15.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-3.15\\poi-ooxml-3.15.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-3.15\\poi-ooxml-schemas-3.15.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-3.15\\poi-scratchpad-3.15.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-bin-5.2.2\\poi-5.2.2.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-bin-5.2.2\\poi-javadoc-5.2.2.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-bin-5.2.2\\poi-ooxml-5.2.2.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-bin-5.2.2\\poi-ooxml-full-5.2.2.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-bin-5.2.2\\poi-scratchpad-5.2.2.jar",
+            "c:\\Users\\gener\\Downloads\\Programs\\poi-3.15\\poi-3.15.jar"
+        ],
+        "exclude": [
+            "lib/poi-5.2.2.jar",
+            "lib/poi-javadoc-5.2.2.jar",
+            "lib/poi-ooxml-full-5.2.2.jar",
+            "lib/poi-scratchpad-5.2.2.jar",
+            "lib/xmlbeans-5.0.3.jar"
+        ]
+    }
+}
