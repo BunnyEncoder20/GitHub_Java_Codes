@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class credit_card{
     public long    credit_card_num;
     public String customer_name;
