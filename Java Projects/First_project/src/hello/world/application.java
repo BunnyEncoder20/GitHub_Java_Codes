@@ -23,7 +23,7 @@ public class application {
         String str2 = new String(str);
         System.out.println(str2+" best friends");
 
-        String str3 = new String();
+        // String str3 = new String();
         System.out.println(str.length());
 
     }
