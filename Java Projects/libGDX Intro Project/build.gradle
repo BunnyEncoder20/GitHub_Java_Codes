@@ -19,7 +19,7 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "libGDX_first_project"
+        appName = "1_Intro_Project_libGDX"
         gdxVersion = '1.11.0'
         roboVMVersion = '2.3.16'
         box2DLightsVersion = '1.5'

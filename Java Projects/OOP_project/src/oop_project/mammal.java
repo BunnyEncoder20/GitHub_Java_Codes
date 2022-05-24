@@ -11,7 +11,7 @@ public class mammal {
     public mammal(String name)
     {
         // super();
-        this.name = "name";
+        this.name = name;
     }
 
     void sleeping()
@@ -20,7 +20,7 @@ public class mammal {
         try {
             // Thread.sleep(3000);
             for (int i = 3; i > 0; i--) {
-                System.out.println("\n" + i);
+                System.out.println(i);
                 Thread.sleep(1000);
             }
             
@@ -32,10 +32,10 @@ public class mammal {
 
     void eating()
     {
-        System.out.println("Eating\nPLease wait");
+        System.out.println("Mammal eating\nPLease wait");
         try {
             for (int i = 3; i > 0; i--) {
-                System.out.println("\n" + i);
+                System.out.println(i);
                 Thread.sleep(1000);
             }
 

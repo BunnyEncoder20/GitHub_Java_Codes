@@ -1,11 +1,11 @@
-package com.bunny;
+package com.bunnyencoder;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
 
-public class MyFirst_GDXGame extends ApplicationAdapter {
+public class myIntro2GDX extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
 	
