@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 
@@ -14,5 +13,6 @@ public class read_till_eof {
             System.out.println(++next + " " +op.nextLine());
         }
         //use ctrl+z to make eof character in console
+        op.close();
     }
 }
