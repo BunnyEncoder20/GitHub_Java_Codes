@@ -9,11 +9,13 @@ public class day1 {
         System.out.println("This is the void function");
     }
     public static void main(String[] args) {
-        System.out.printf("Hello World"); //used for format specifiers like %d,%f,%ln,etc
-        System.out.print("Hello World");    //cursor on the same line after printing 
+        System.out.printf("Hello World\n"); //used for format specifiers like %d,%f,%ln,etc
         System.out.println("Hello World");  //cursor on the next line after printing
+        System.out.print("Hello World\n");    //cursor on the same line after printing 
 
-        day1 obj = new day1(); //new keyword is used to allocate memory for object
+        //The class function obviously needs a object to access the function
+        day1 obj = new day1(); //new keyword is used to allocate memory for class object
+        
         obj.function();
     }
 }
