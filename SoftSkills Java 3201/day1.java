@@ -1,5 +1,3 @@
-import java.util.function.Function;
-
 /**
  * day1
  */
@@ -15,7 +13,7 @@ public class day1 {
 
         //The class function obviously needs a object to access the function
         day1 obj = new day1(); //new keyword is used to allocate memory for class object
+        obj.function();     //using the class object only can me call a method of the class
         
-        obj.function();
     }
 }
