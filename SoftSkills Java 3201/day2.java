@@ -15,9 +15,9 @@ public class day2 {
         //string args is the arguments sent from the terminal input
         display();
         day2.display();
-        system.out.print("Returns void\n"); //if(system.out,print()) will give an error
-        system.out.println("Returns void"); //if(system.out.println()) will also give error 
-        system.out.printf("Returns int\n"); //if(system.out.printf("Hello")==null) will not give error but will not enter the if block
+        System.out.print("Returns void\n"); //if(system.out,print()) will give an error
+        System.out.println("Returns void"); //if(system.out.println()) will also give error 
+        System.out.printf("Returns int\n"); //if(system.out.printf("Hello")==null) will not give error but will not enter the if block
     }
 }
 
