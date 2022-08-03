@@ -70,7 +70,7 @@ public class inheritance {
         fname = temp[0];
         lname = temp[1];
         idnum = Integer.parseInt(temp[2]);
-
+        
         
 
         // System.out.println("Number of tests : ");
