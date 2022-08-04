@@ -12,7 +12,7 @@ class negative_num_exception extends Exception{
     }
 }
 
-public class day16 {
+public class day17 {
     public static void main(String[] args) {
         Scanner op = new Scanner(System.in);
         Calculator obj = new Calculator();
