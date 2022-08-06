@@ -35,17 +35,25 @@
  *  Bitwise
  *  & bitwise and
  *  | bitwise or 
- *  >> logical shift right
- *  << logical shift left
+ *  >> logical shift right eg: 5<<3 => 5*2 = 10 => 10*2 = 20 => 20*2 = 40 => 5<<3 = 40 
+ *  << logical shift left eg: 5>>3 => 5/2 = 2 (take only int values) => 2/2 = 1 => 1/2 = 0 => 5>>3 = 0
  *  ^ bitwise XOR (similar = 0 , disimilar = 1)
  *  ~ 
  *  10 & 20 = (01010) && (10100) = (00000) = 0
  *  10 | 20 = (01010) || (10100) = (11110) = 30
  *  10^20 = (01010) ^ (10100) = (11110) = 30
+ * 
+ *  eg:
+        int a=4, b=3;
+        System.out.println(a+b); 
+        System.out.println("a"+"b"); 
+        System.out.println(" "+a+b); 
+        System.out.println("4"+"3"); 
+        System.out.println("Result"+a+b); 
+        System.out.println("Result"+(a+b)); 
  */
 public class day5 {
     public static void main(String[] args) {
-        System.out.println();
-
+        
     }
 }
