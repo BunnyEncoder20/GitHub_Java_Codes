@@ -1,5 +1,5 @@
 //write code for checking strong numbers
-//write code for checking kaprekar numbers
+
 import java.util.Scanner;
 public class day12 {
     public static void main(String[] args) {

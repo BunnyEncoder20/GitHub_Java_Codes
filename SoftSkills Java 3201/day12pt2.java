@@ -39,4 +39,11 @@ public class day12pt2 {
         }
         op.close();
     }
+
+    private static int pow(int a, int power) {
+        for (int i = 0; i < power; i++) {
+            a*=power;
+        }
+        return 0;
+    }
 }
