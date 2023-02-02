@@ -1,11 +1,6 @@
 import java.util.*;
-// CAT - 1 Portions for STS : 
-// Stack , Queue (Arrray,LinkedList, Prefere -> Collections)
-// Implementing Stack using Queue, Queue using Stack 
-// Learn Collections all functions of Stack and Queue
-// are un-built into that 
-// MultiThreading 
-// Exception handling Try-catch
+
+
 public class LinkedListQueue{
     Node front;
     Node rear;
