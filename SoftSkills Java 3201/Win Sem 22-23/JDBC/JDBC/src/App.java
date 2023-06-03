@@ -10,7 +10,7 @@ public class App {
         String url = "jdbc:mysql://localhost:3307/";
         String user = "root";
         String pwd = "";
-
+        
         // Creating the database 
         try (Connection conn = DriverManager.getConnection(url,user,pwd) ; Statement stmt = conn.createStatement();){
             String query = "CREATE DATABASE IF NOT EXISTS jdbc_db";
